@@ -4,14 +4,25 @@ import {Button,Row} from "antd";
 import{UnorderedListOutlined,AppstoreOutlined} from '@ant-design/icons'
 import GridCard from "./GridCard";
 import ListCard from "./ListCard";
+import {Col} from "antd";
 
 const GridListView = ({carSalesData}) => {
    const [view, setView] = useState(false);
+   var rowCounter = 0;
 
-   const DisplayData = carSalesData.map(
+   const DisplayListData = carSalesData.map(
     (car)=>{
         return(
             <ListCard carData={car}/>
+        )
+    }
+  )
+  const DisplayGridData = carSalesData.map(
+    (car)=>{
+        return(
+          <Col md={7} style={{margin:10}}>
+            <GridCard carData={car}/>
+          </Col>
         )
     }
   )
@@ -21,10 +32,18 @@ const GridListView = ({carSalesData}) => {
       <div
         style={{textAlign:"center",marginTop:"2rem",marginBottom:"2rem"}}
         >
-       <Button size="large" icon={<UnorderedListOutlined style={{fontSize:"1.5rem"}}/>}/>
-       <Button size="large" icon={<AppstoreOutlined style={{fontSize:"1.5rem"}}/>}/>
+          {view == true ?
+          <Button size="large" 
+          onClick = {() =>setView(false)}
+          icon={<UnorderedListOutlined style={{fontSize:"1.5rem"}}/>}/>
+       :  <Button size="large"
+          onClick = {() =>setView(true)}
+          icon={<AppstoreOutlined style={{fontSize:"1.5rem"}}/>}/>
+          }
       </div>
-      {DisplayData}
+      {view == true ? (<Row>{DisplayGridData}</Row>)
+      :(<div>{DisplayListData}</div>)
+      }
     </>
 
    );

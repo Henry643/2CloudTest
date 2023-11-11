@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.customModal {
+  font-size: 12px;
+}
+.customModal > .header {
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.column1 {
+  font-size: 18px;
+  background-color: #F5F5F5;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.column2 {
+  font-size: 16px;
+  padding: 5px;
+}
+.customModal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.customModal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  line-height: 20px;
+  right: 10px;
+  font-size: 24px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
