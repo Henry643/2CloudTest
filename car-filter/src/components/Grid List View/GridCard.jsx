@@ -6,16 +6,7 @@ const GridCard = () => {
   return(
     <div>
         <Col>
-          <Card
-            hoverable
-            style={{width:240 }}
-            cover={
-                <img
-                  src="https://unsplash.com/photos/a-person-standing-in-a-narrow-canyon-between-two-mountains-lrhF4w-KKjA"
-                  alt="exmples"
-                />
-            }
-          >
+          <Card style={{width:"100%"}}>
             <Meta title="Sample Card Grid View" description="aaaaaaaa"/>
           </Card>
         </Col>
