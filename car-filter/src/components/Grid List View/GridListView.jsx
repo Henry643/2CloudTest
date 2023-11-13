@@ -17,7 +17,7 @@ const GridListView = ({carSalesData}) => {
         )
     }
   )
-  const DisplayGridData = carSalesData.map(
+  const DisplayGridData = carSalesData.slice(0,numberlimit).map(
     (car)=>{
         return(
           <Col md={7} style={{margin:"2%"}}>
