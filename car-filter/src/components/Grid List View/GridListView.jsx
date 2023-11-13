@@ -8,9 +8,9 @@ import {Col} from "antd";
 
 const GridListView = ({carSalesData}) => {
    const [view, setView] = useState(false);
-   var rowCounter = 0;
+   const [numberlimit, setnumberlimit] = useState(15);
 
-   const DisplayListData = carSalesData.map(
+   const DisplayListData = carSalesData.slice(0,numberlimit).map(
     (car)=>{
         return(
             <ListCard carData={car}/>
@@ -20,7 +20,7 @@ const GridListView = ({carSalesData}) => {
   const DisplayGridData = carSalesData.map(
     (car)=>{
         return(
-          <Col md={7} style={{margin:10}}>
+          <Col md={7} style={{margin:"2%"}}>
             <GridCard carData={car}/>
           </Col>
         )
@@ -33,10 +33,10 @@ const GridListView = ({carSalesData}) => {
         style={{textAlign:"center",marginTop:"2rem",marginBottom:"2rem"}}
         >
           {view == true ?
-          <Button size="large" 
+          <Button size="middle" 
           onClick = {() =>setView(false)}
           icon={<UnorderedListOutlined style={{fontSize:"1.5rem"}}/>}/>
-       :  <Button size="large"
+       :  <Button size="middle"
           onClick = {() =>setView(true)}
           icon={<AppstoreOutlined style={{fontSize:"1.5rem"}}/>}/>
           }
@@ -44,6 +44,15 @@ const GridListView = ({carSalesData}) => {
       {view == true ? (<Row>{DisplayGridData}</Row>)
       :(<div>{DisplayListData}</div>)
       }
+      <br/>
+      <div
+        style={{textAlign:"center",marginTop:"1rem"}}
+        >
+      {carSalesData.length>0 ?<Button size="large" type="primary" style={{ background: "white", borderColor: "blue",color:"blue"}}
+          onClick = {() => setnumberlimit(numberlimit+15)}
+      > Load more </Button>: <div></div>}
+      
+      </div>
     </>
 
    );

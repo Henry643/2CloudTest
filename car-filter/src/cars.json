@@ -110,61 +110,6 @@
       "Origin":"USA"
    },
    {
-      "Name":"citroen ds-21 pallas",
-      "Miles_per_Gallon":null,
-      "Cylinders":4,
-      "Displacement":133,
-      "Horsepower":115,
-      "Weight_in_lbs":3090,
-      "Acceleration":17.5,
-      "Year":"1970-01-01",
-      "Origin":"Europe"
-   },
-   {
-      "Name":"chevrolet chevelle concours (sw)",
-      "Miles_per_Gallon":null,
-      "Cylinders":8,
-      "Displacement":350,
-      "Horsepower":165,
-      "Weight_in_lbs":4142,
-      "Acceleration":11.5,
-      "Year":"1970-01-01",
-      "Origin":"USA"
-   },
-   {
-      "Name":"ford torino (sw)",
-      "Miles_per_Gallon":null,
-      "Cylinders":8,
-      "Displacement":351,
-      "Horsepower":153,
-      "Weight_in_lbs":4034,
-      "Acceleration":11,
-      "Year":"1970-01-01",
-      "Origin":"USA"
-   },
-   {
-      "Name":"plymouth satellite (sw)",
-      "Miles_per_Gallon":null,
-      "Cylinders":8,
-      "Displacement":383,
-      "Horsepower":175,
-      "Weight_in_lbs":4166,
-      "Acceleration":10.5,
-      "Year":"1970-01-01",
-      "Origin":"USA"
-   },
-   {
-      "Name":"amc rebel sst (sw)",
-      "Miles_per_Gallon":null,
-      "Cylinders":8,
-      "Displacement":360,
-      "Horsepower":175,
-      "Weight_in_lbs":3850,
-      "Acceleration":11,
-      "Year":"1970-01-01",
-      "Origin":"USA"
-   },
-   {
       "Name":"dodge challenger se",
       "Miles_per_Gallon":15,
       "Cylinders":8,
@@ -182,17 +127,6 @@
       "Displacement":340,
       "Horsepower":160,
       "Weight_in_lbs":3609,
-      "Acceleration":8,
-      "Year":"1970-01-01",
-      "Origin":"USA"
-   },
-   {
-      "Name":"ford mustang boss 302",
-      "Miles_per_Gallon":null,
-      "Cylinders":8,
-      "Displacement":302,
-      "Horsepower":140,
-      "Weight_in_lbs":3353,
       "Acceleration":8,
       "Year":"1970-01-01",
       "Origin":"USA"
@@ -416,28 +350,6 @@
       "Acceleration":14,
       "Year":"1971-01-01",
       "Origin":"Japan"
-   },
-   {
-      "Name":"ford pinto",
-      "Miles_per_Gallon":25,
-      "Cylinders":4,
-      "Displacement":98,
-      "Horsepower":null,
-      "Weight_in_lbs":2046,
-      "Acceleration":19,
-      "Year":"1971-01-01",
-      "Origin":"USA"
-   },
-   {
-      "Name":"volkswagen super beetle 117",
-      "Miles_per_Gallon":null,
-      "Cylinders":4,
-      "Displacement":97,
-      "Horsepower":48,
-      "Weight_in_lbs":1978,
-      "Acceleration":20,
-      "Year":"1971-01-01",
-      "Origin":"Europe"
    },
    {
       "Name":"amc gremlin",
@@ -1459,17 +1371,6 @@
       "Horsepower":95,
       "Weight_in_lbs":3102,
       "Acceleration":16.5,
-      "Year":"1974-01-01",
-      "Origin":"USA"
-   },
-   {
-      "Name":"ford maverick",
-      "Miles_per_Gallon":21,
-      "Cylinders":6,
-      "Displacement":200,
-      "Horsepower":null,
-      "Weight_in_lbs":2875,
-      "Acceleration":17,
       "Year":"1974-01-01",
       "Origin":"USA"
    },
@@ -3707,17 +3608,6 @@
       "Origin":"Japan"
    },
    {
-      "Name":"renault lecar deluxe",
-      "Miles_per_Gallon":40.9,
-      "Cylinders":4,
-      "Displacement":85,
-      "Horsepower":null,
-      "Weight_in_lbs":1835,
-      "Acceleration":17.3,
-      "Year":"1980-01-01",
-      "Origin":"Europe"
-   },
-   {
       "Name":"subaru dl",
       "Miles_per_Gallon":33.8,
       "Cylinders":4,
@@ -3771,17 +3661,6 @@
       "Acceleration":15.1,
       "Year":"1980-01-01",
       "Origin":"Europe"
-   },
-   {
-      "Name":"ford mustang cobra",
-      "Miles_per_Gallon":23.6,
-      "Cylinders":4,
-      "Displacement":140,
-      "Horsepower":null,
-      "Weight_in_lbs":2905,
-      "Acceleration":14.3,
-      "Year":"1980-01-01",
-      "Origin":"USA"
    },
    {
       "Name":"honda Accelerationord",
@@ -3971,17 +3850,6 @@
       "Origin":"Europe"
    },
    {
-      "Name":"renault 18i",
-      "Miles_per_Gallon":34.5,
-      "Cylinders":4,
-      "Displacement":100,
-      "Horsepower":null,
-      "Weight_in_lbs":2320,
-      "Acceleration":15.8,
-      "Year":"1982-01-01",
-      "Origin":"Europe"
-   },
-   {
       "Name":"honda prelude",
       "Miles_per_Gallon":33.7,
       "Cylinders":4,
@@ -4033,17 +3901,6 @@
       "Horsepower":80,
       "Weight_in_lbs":3230,
       "Acceleration":20.4,
-      "Year":"1982-01-01",
-      "Origin":"Europe"
-   },
-   {
-      "Name":"saab 900s",
-      "Miles_per_Gallon":null,
-      "Cylinders":4,
-      "Displacement":121,
-      "Horsepower":110,
-      "Weight_in_lbs":2800,
-      "Acceleration":15.4,
       "Year":"1982-01-01",
       "Origin":"Europe"
    },
@@ -4198,17 +4055,6 @@
       "Horsepower":92,
       "Weight_in_lbs":2865,
       "Acceleration":16.4,
-      "Year":"1982-01-01",
-      "Origin":"USA"
-   },
-   {
-      "Name":"amc concord dl",
-      "Miles_per_Gallon":23,
-      "Cylinders":4,
-      "Displacement":151,
-      "Horsepower":null,
-      "Weight_in_lbs":3035,
-      "Acceleration":20.5,
       "Year":"1982-01-01",
       "Origin":"USA"
    },
